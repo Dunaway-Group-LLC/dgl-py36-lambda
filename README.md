@@ -20,3 +20,4 @@ sls create -u https://github.com/ServerlessOpsIO/sls-aws-python-36 -p <PATH> -n 
 ```
 
 # dgl-py36-lambda
+Dunaway Group LLC building on this base to support a group of product websites
