@@ -4,9 +4,12 @@
 import boto3
 
 def addContact(event, context): 
+    print(event['queryStringParameters']['first_name'])
+    """
     first_name = event["first_name"];
     last_name = event["last_name"]
     email = event["email"]
     reviewer = event["reviewer"] == ("Y" or "y")
     response = "Response: ".format(first_name,last_name,email,reviewer)
-    return response
+    """
+    return {}
