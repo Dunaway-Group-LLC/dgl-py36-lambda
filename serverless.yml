@@ -29,4 +29,8 @@ functions:
     description: "Saves contacts in s3 bucket"
     memorySize: 128
     timeout: 30
+    events:
+      - http:
+          path: addContact
+          method: POST
 
