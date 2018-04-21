@@ -26,7 +26,7 @@ provider:
 
 functions:
   addContact:
-    handler: handler.addContact
+    handler: handlers/handler.addContact
     description: "Saves contacts in s3 bucket"
     memorySize: 128
     timeout: 30
