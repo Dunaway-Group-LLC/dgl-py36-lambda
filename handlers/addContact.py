@@ -3,7 +3,7 @@
 #
 import boto3
 
-def dglAddContact(event, context): 
+def addContact(event, context): 
     first_name = event["first_name"];
     last_name = event["last_name"]
     email = event["email"]
