@@ -1,6 +1,6 @@
 # 
-# # Creates Python 3.6 handler with API Gateway to support collecting names from product landing pages
-# # Names  [fn, ln, email, reviewer=Y/N, product ] are saved in a common s3 bucket - dgl-contacts
+# # Creates Python 3.6 handler with API Gateway to support collecting contacts from product landing pages
+# # Contacts  [fn, ln, email, reviewer=Y/N, product ] are saved in a common s3 bucket - dgl-contacts
 #
 service: dgl-addContact
 
