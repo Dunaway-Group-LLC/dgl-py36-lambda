@@ -21,3 +21,10 @@ sls create -u https://github.com/ServerlessOpsIO/sls-aws-python-36 -p <PATH> -n 
 
 # dgl-py36-lambda
 Dunaway Group LLC building on this base to support a group of product websites
+
+## Usage
+To use, provide the url to this repository when creating a project.
+
+```
+sls create -u https://github.com/lesatdgl/dgl-py36-lambda -p <PATH> -n <NAME>
+```
