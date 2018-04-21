@@ -33,5 +33,5 @@ functions:
     events:
       - http:
           path: addContact
-          method: POST
+          method: ANY
 
