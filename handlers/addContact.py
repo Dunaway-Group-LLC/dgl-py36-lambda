@@ -9,4 +9,4 @@ def addContact(event, context):
     email = event["email"]
     reviewer = event["reviewer"] == ("Y" or "y")
     response = "Response: ".format(first_name,last_name,email,reviewer)
-    return some_value
+    return response
