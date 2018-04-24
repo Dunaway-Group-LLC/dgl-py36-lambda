@@ -2,6 +2,7 @@
 # # AWS Lambda Handler 
 #
 import boto3
+import addContact-classes
 
 def addContact(event, context): 
     
